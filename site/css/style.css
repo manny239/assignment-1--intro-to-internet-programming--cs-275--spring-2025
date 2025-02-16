@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Parisienne&display=swap');
+
+body {
+    background-image: url('../img/img1.jpeg');
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+}
+
+.topic{
+    color: red;
+    padding-right: 5px;
+}
+
+h2 {
+    border: 1px solid;
+    display: flex;
+    text-align:center;
+    margin: 10px 5px;
+    font-size: 1.3rem;
+    font-family: 'DynaPuff', sans-serif;
+}
+
+#author{
+    justify-content: center;
+    border:1px;
+}
+
+#start{
+    border:1px;
+}
+
+#first {
+    background-color: rgba(190, 7, 7, 0.796);
+}
+
+#second {
+    background-color: orange;
+}
+
+#third {
+    background-color: yellow;
+}
+
+#fourth {
+    background-color: green;
+}
+
+#fifth{
+    background-color: blue;
+}
+
+#sixth{
+    background-attachment: indigo;
+}
+
+#seven{
+    background-color: violet;
+}
+
+#eight{
+    background-color: burlywood;
+}
+
+#nine{
+    background-color: darkslategray;
+}
+
+#ten{
+    background-color: lavenderblush;
+}
