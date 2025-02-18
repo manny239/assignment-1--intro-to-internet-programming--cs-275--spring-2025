@@ -10,6 +10,33 @@ body {
     background-repeat: no-repeat;
 }
 
+.navbar {
+    background-color:rgb(243, 199, 3)
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: right;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: block;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: brown;
+    color:darkgrey;
+}
+
 h1 {
     display: flex;
     margin: 10px;
